@@ -112,21 +112,21 @@ I enjoy transforming AI concepts into production-ready applications that solve r
 
 ## 🔬 AI / ML Expertise
 
-| Domain | Proficiency | Details |
-| :--- | :---: | :--- |
-| **Large Language Models** | `Expert` | API Integration (Gemini, OpenAI), local model orchestration, parameter tuning, token management. |
-| **Retrieval-Augmented Generation** | `Expert` | Advanced chunking strategies, dense/sparse hybrid search, reranking, metadata filtering. |
-| **Prompt Engineering** | `Expert` | Few-shot prompting, Chain-of-Thought (CoT), automated prompt optimization, system instructions. |
-| **Vector Databases** | `Advanced` | Index optimization, high-dimensional vector search, FAISS, ChromaDB, metadata schema design. |
-| **Semantic Search** | `Advanced` | Sentence-transformers, cross-encoders, BM25 keyword matching integration, hybrid retrievers. |
-| **Natural Language Processing** | `Advanced` | Tokenization, text classification, Named Entity Recognition (NER), NLTK, spaCy, Hugging Face. |
-| **Computer Vision** | `Intermediate` | Face and landmark detection, motion tracking, image pre-processing, OpenCV, MediaPipe. |
-| **Deep Learning** | `Advanced` | Artificial Neural Networks (ANNs), CNNs, training optimization, PyTorch, TensorFlow. |
-| **Machine Learning** | `Expert` | Supervised/unsupervised models, regression, decision trees, ensemble learning, Scikit-learn. |
-| **AI Agents** | `Advanced` | Tool usage patterns, function calling, stateful multi-agent workflows, autonomous execution loops. |
-| **Workflow Automation** | `Advanced` | Asynchronous job scheduling, ETL data-ingestion pipelines, event-driven architectures. |
-| **Model Deployment** | `Advanced` | Dockerizing ML pipelines, hosting models on cloud providers, inference endpoint optimization. |
-| **Backend AI Systems** | `Expert` | Connecting generative AI pipelines with REST API gateways, handling rate limits, session histories. |
+| Domain | Details |
+| :--- | :--- |
+| **Large Language Models** | API Integration (Gemini, OpenAI), local model orchestration, parameter tuning, token management. |
+| **Retrieval-Augmented Generation** | Advanced chunking strategies, dense/sparse hybrid search, reranking, metadata filtering. |
+| **Prompt Engineering** | Few-shot prompting, Chain-of-Thought (CoT), automated prompt optimization, system instructions. |
+| **Vector Databases** | Index optimization, high-dimensional vector search, FAISS, ChromaDB, metadata schema design. |
+| **Semantic Search** | Sentence-transformers, cross-encoders, BM25 keyword matching integration, hybrid retrievers. |
+| **Natural Language Processing** | Tokenization, text classification, Named Entity Recognition (NER), NLTK, spaCy, Hugging Face. |
+| **Computer Vision** | Face and landmark detection, motion tracking, image pre-processing, OpenCV, MediaPipe. |
+| **Deep Learning** | Artificial Neural Networks (ANNs), CNNs, training optimization, PyTorch, TensorFlow. |
+| **Machine Learning** | Supervised/unsupervised models, regression, decision trees, ensemble learning, Scikit-learn. |
+| **AI Agents** | Tool usage patterns, function calling, stateful multi-agent workflows, autonomous execution loops. |
+| **Workflow Automation** | Asynchronous job scheduling, ETL data-ingestion pipelines, event-driven architectures. |
+| **Model Deployment** | Dockerizing ML pipelines, hosting models on cloud providers, inference endpoint optimization. |
+| **Backend AI Systems** | Connecting generative AI pipelines with REST API gateways, handling rate limits, session histories. |
 
 ---
 

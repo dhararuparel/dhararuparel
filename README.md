@@ -3,10 +3,6 @@
 <!-- Capsule Render Wave Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=4c1d95&customColorEnd=0f0f1b&height=220&section=header&text=Dhara%20Ruparel&fontSize=42&fontColor=ffffff&fontAlignY=35" width="100%" alt="Header Banner" />
 
-<!-- Typing SVG -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C084FC&center=true&vCenter=true&width=500&height=50&lines=AI+%2F+ML+Engineer;Generative+AI+Engineer;Backend+Engineer;Python+Developer" alt="Typing SVG" />
-</a>
 
 <p align="center">
   <strong>Crafting scalable backend architectures, high-performance RAG pipelines, and production-grade AI agents.</strong>
@@ -43,21 +39,24 @@
 
 ---
 
-## 🌌 About Me
+## 👋 About Me
 
-I am an **AI/ML & Backend Software Engineer** based in Ahmedabad, India. With deep expertise in computer engineering and software architecture, I focus on building production-grade **Generative AI systems**, scalable **Retrieval-Augmented Generation (RAG)** frameworks, and high-performance backend microservices.
+Computer Engineering graduate with experience building AI-powered applications, Retrieval-Augmented Generation (RAG) systems, backend APIs, and workflow automation solutions.
 
-My engineering philosophy revolves around writing clean, highly optimized code, designing resilient distributed systems, and leveraging cutting-edge LLMs to solve complex business problems. I enjoy bridging the gap between state-of-the-art machine learning models and robust, secure, and highly available backend infrastructure.
+My primary interests are Generative AI, LLM Engineering, FastAPI, Django, Vector Search, and scalable backend development.
 
-### 🎯 Open To
-* 🧠 **AI Engineer**
-* ⚡ **Machine Learning Engineer**
-* ⚙️ **LLM Engineer**
-* 🛠️ **Backend Engineer**
-* 🤝 **Python Developer**
-* 💻 **Software Engineer**
-* 🚀 **Full Stack AI Engineer**
-* 📂 **Open Source Collaboration**
+I enjoy transforming AI concepts into production-ready applications that solve real-world business problems.
+
+---
+
+## 🚀 Highlights
+
+*   🎓 **B.E. Computer Engineering** | CGPA: 8.55
+*   🤖 **Production-grade RAG applications** built using Gemini, FAISS, FastAPI, and Supabase
+*   ⚡ **REST APIs** developed using Django, FastAPI, PostgreSQL, and JWT Authentication
+*   🔍 **Core Expertise** in LLMs, AI Agents, Vector Databases, Semantic Search, and Prompt Engineering
+*   🐳 **Containerization & Deployment** of AI applications on Render using Docker
+*   🌱 **Actively exploring** Agentic AI, MCP, and AI Infrastructure
 
 ---
 
@@ -80,7 +79,7 @@ My engineering philosophy revolves around writing clean, highly optimized code, 
   <img src="https://skillicons.dev/icons?i=django,fastapi,flask" alt="Backend" />
 </a>
 <br/>
-<sup><strong>Libraries/Concepts:</strong> Django REST Framework | REST APIs | JWT | Authentication</sup>
+<sup><strong>Libraries & Concepts:</strong> Django REST Framework | REST APIs | JWT | Authentication</sup>
 
 ### 🗄️ Databases & Vectors
 <a href="https://skillicons.dev">
@@ -91,17 +90,19 @@ My engineering philosophy revolves around writing clean, highly optimized code, 
 
 ### 🧠 AI / ML / Generative AI
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas,numpy,opencv" alt="AI/ML" />
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv" alt="AI/ML" />
 </a>
 <br/>
 <sup><strong>Core Focus:</strong> LLMs | Generative AI | Prompt Engineering | AI Agents | MediaPipe | NLP | RAG | Semantic Search</sup>
+<br/>
+<sup><strong>Frameworks & Libraries:</strong> TensorFlow | PyTorch | Scikit-Learn | Pandas | NumPy | OpenCV | MediaPipe</sup>
 
-### ☁️ Cloud & DevOps
+### ☁️ DevOps & Tools
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vscode" alt="DevOps" />
 </a>
 <br/>
-<sup><strong>Tools:</strong> Render | Postman | Pytest</sup>
+<sup><strong>Tools & Cloud:</strong> Render | Postman | Pytest | VS Code</sup>
 
 ---
 
@@ -132,11 +133,15 @@ My engineering philosophy revolves around writing clean, highly optimized code, 
 <br/>
 
 ### Overview
-A comprehensive retrieval-augmented generation platform allowing users to ingest multiple document types, websites, and YouTube content to engage in highly context-aware, real-time conversational querying.
+Production-grade RAG platform enabling users to chat with PDFs, DOCX files, websites, and YouTube content.
 
-### Engineering Explanation
-Features an advanced document ingestion and processing engine that handles PDFs, DOCX, custom web URLs, and YouTube transcripts. Generates semantic embeddings using sentence-transformers, indexes them within a local FAISS database, and orchestrates answers utilizing Gemini 2.5 Flash. Employs Supabase for multi-tenant user isolation and JWT authentication, with all background microservices fully containerized and hosted on Render.
+### Key Features
+*   **Multi-source document ingestion**: Supports parsing and processing PDFs, DOCX, custom web URLs, and YouTube transcripts.
+*   **Semantic search**: Generates semantic embeddings using sentence-transformers and indexes them within a local FAISS database.
+*   **Authentication**: Implements secure OAuth and Supabase JWT authentication.
+*   **Real-time streaming**: Orchestrates context-aware, real-time conversational streaming responses utilizing Gemini 2.5 Flash.
 
+### Engineering Details
 | Aspect | Engineering Details |
 | :--- | :--- |
 | **Stack** | Gemini 2.5 Flash, FAISS, Supabase, FastAPI, Next.js, Docker, Render |
@@ -153,11 +158,15 @@ Features an advanced document ingestion and processing engine that handles PDFs,
 <br/>
 
 ### Overview
-Enterprise-grade document management and processing backend delivering automated parsing, indexing, and semantic searching across unstructured documents.
+Enterprise document management platform with AI-powered search and document processing.
 
-### Engineering Explanation
-Exposes 30+ highly-optimized REST APIs. Uses a task-based architecture backed by Redis and Celery to process document uploads asynchronously. Implements a robust RAG pipeline utilizing ChromaDB for vectorized storage and Gemini models for synthesis. Implements fine-grained Role-Based Access Control (RBAC), custom metadata filtering, pagination, and real-time background tracking.
+### Key Features
+*   **30+ REST APIs**: A robust set of 30+ highly-optimized, fully-documented REST API endpoints.
+*   **Asynchronous processing**: Offloads background document ingestion, parsing, and vector indexing to Celery workers backed by Redis.
+*   **Role-Based Access Control**: Implements fine-grained RBAC integrated with JWT token authorization.
+*   **Semantic document search**: Implements a robust RAG pipeline utilizing ChromaDB for vectorized storage and Gemini models for synthesis.
 
+### Engineering Details
 | Aspect | Engineering Details |
 | :--- | :--- |
 | **Stack** | Python, FastAPI, PostgreSQL, Redis, Celery, ChromaDB, Gemini, Docker |
@@ -174,11 +183,15 @@ Exposes 30+ highly-optimized REST APIs. Uses a task-based architecture backed by
 <br/>
 
 ### Overview
-A statistics and analysis dashboard that fetches raw repository metrics and generates high-level technical summaries, contributor contribution breakdowns, and project health checks.
+AI-powered repository analysis platform that generates project insights and technical summaries.
 
-### Engineering Explanation
-Integrates with the GitHub REST API to pull repository statistics, commit frequencies, issue status, and pull requests. Uses Gemini models to perform code analysis, summarize project structures, and write automated engineering reports. Visualizes output metrics through an interactive, responsive front-end dashboard.
+### Key Features
+*   **Repository health analysis**: Integrates with the GitHub REST API to pull repository statistics, commit frequencies, issue status, and pull requests.
+*   **Contributor insights**: Analyzes developer contributions, commit patterns, and project velocity.
+*   **Automated summaries**: Uses Gemini models to perform code analysis, summarize project structures, and write automated engineering reports.
+*   **Interactive dashboard**: Visualizes output metrics through an interactive, responsive front-end dashboard built with React and Next.js.
 
+### Engineering Details
 | Aspect | Engineering Details |
 | :--- | :--- |
 | **Stack** | Gemini API, GitHub API, Python, Next.js, React, TailwindCSS |
@@ -190,48 +203,6 @@ Integrates with the GitHub REST API to pull repository statistics, commit freque
 
 </details>
 
-<details>
-<summary>📂 <strong>4. MotionGuard — AI Surveillance System</strong></summary>
-<br/>
-
-### Overview
-A real-time AI security and surveillance server that detects movements, identifies anomalies, and generates security logs.
-
-### Engineering Explanation
-Combines computer vision algorithms and web technologies. Employs OpenCV for frame-by-frame background subtraction, contour detection, and frame-rate handling. When motion thresholds are crossed, a Flask REST API generates real-time database logs in PostgreSQL, triggers events, and queues notifications.
-
-| Aspect | Engineering Details |
-| :--- | :--- |
-| **Stack** | OpenCV, Python, Flask, PostgreSQL, React, Docker |
-| **Scale** | Processes continuous camera streams with minimal memory overhead |
-| **Performance** | Real-time 30 FPS video frame processing on edge hardware |
-| **Security** | End-to-end event logging with tamper-proof timestamps and query-parameter validation |
-| **Impact** | Provides a lightweight, local-first alternative to heavy cloud-based home security platforms |
-| **Repository** | [github.com/dhararuparel/motionguard](https://github.com/dhararuparel/motionguard) |
-
-</details>
-
-<details>
-<summary>📂 <strong>5. EmoSense — Multimodal Emotion Recognition</strong></summary>
-<br/>
-
-### Overview
-An advanced, multi-channel emotion recognition application analyzing text, voice, and facial expressions to classify emotional states.
-
-### Engineering Explanation
-Combines classical machine learning and deep learning methodologies. The text classification engine uses a Logistic Regression model trained on TF-IDF features extracted using NLTK. Face emotion analysis is performed utilizing CNN pipelines. Provides dual deployment configurations with Streamlit for research prototyping and a Next.js frontend for final interfaces.
-
-| Aspect | Engineering Details |
-| :--- | :--- |
-| **Stack** | Python, Logistic Regression, TF-IDF, NLTK, OpenCV, Next.js, Streamlit |
-| **Scale** | Real-time webcam and audio recording analyses; concurrent input streams |
-| **Performance** | Inference under 100ms for text input and 150ms for live facial frames |
-| **Security** | Local processing options to keep user bio-inputs private and secure |
-| **Impact** | Serves as an interactive interface for customer sentiment, gaming, and accessibility research |
-| **Repository** | [github.com/dhararuparel/emosense](https://github.com/dhararuparel/emosense) |
-
-</details>
-
 ---
 
 ## 💼 Experience
@@ -240,10 +211,10 @@ Combines classical machine learning and deep learning methodologies. The text cl
 `Python Intern` • *Ahmedabad, India*  
 *Developing clean backend architectures, APIs, and automating system workflows.*
 
-*   **Backend Development**: Designed and maintained robust backend services using Python and Django, implementing standardized CRUD APIs and relational schemas.
-*   **Database Management**: Designed database tables and optimized schemas in PostgreSQL, writing complex queries and indexes to improve response times.
-*   **APIs & Integrations**: Built RESTful API endpoints utilizing Django REST Framework (DRF), integrating JWT token validation for endpoints.
-*   **Testing & CI/CD**: Wrote extensive test suites with Pytest to guarantee functionality and code coverage, and managed collaborative source code using Git and GitHub.
+*   **Backend Development**: Developed backend applications using Python and Django, implementing standardized database schemas and REST APIs.
+*   **API & Integration**: Built robust and secure RESTful endpoints utilizing Django REST Framework (DRF), integrating JWT authentication.
+*   **Workflows & Automation**: Created automated background workflows, data processing pipelines, and system integrations.
+*   **Version Control & Collaboration**: Managed collaborative source code and release tracking utilizing Git and GitHub.
 
 **Technologies Utilized:**  
 <img src="https://img.shields.io/badge/Python-1e1b4b?style=flat-square&logo=python&logoColor=A78BFA" /> <img src="https://img.shields.io/badge/Django-1e1b4b?style=flat-square&logo=django&logoColor=A78BFA" /> <img src="https://img.shields.io/badge/PostgreSQL-1e1b4b?style=flat-square&logo=postgresql&logoColor=A78BFA" /> <img src="https://img.shields.io/badge/Pytest-1e1b4b?style=flat-square&logo=pytest&logoColor=A78BFA" /> <img src="https://img.shields.io/badge/Git-1e1b4b?style=flat-square&logo=git&logoColor=A78BFA" /> <img src="https://img.shields.io/badge/GitHub-1e1b4b?style=flat-square&logo=github&logoColor=A78BFA" />
@@ -354,30 +325,14 @@ Combines classical machine learning and deep learning methodologies. The text cl
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=dhararuparel&theme=dracula&no-background=false&no-border=false&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-  </a>
-</div>
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <a href="https://github.com/dhararuparel">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dhararuparel&bg_color=0f0f1b&color=c084fc&line=a78bfa&point=e2e8f0&area=true&hide_border=true" alt="Activity Graph" width="810" />
-  </a>
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/dhararuparel/dhararuparel/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Grid Snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhararuparel/dhararuparel/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhararuparel/dhararuparel/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/dhararuparel/dhararuparel/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Grid Snake">
+  </picture>
 </div>
 
 ---

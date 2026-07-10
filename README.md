@@ -3,6 +3,10 @@
 <!-- Capsule Render Wave Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=4c1d95&customColorEnd=0f0f1b&height=220&section=header&text=Dhara%20Ruparel&fontSize=42&fontColor=ffffff&fontAlignY=35" width="100%" alt="Header Banner" />
 
+<!-- Typing SVG -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C084FC&center=true&vCenter=true&width=500&height=50&lines=AI+%2F+ML+Engineer;Generative+AI+Engineer;Backend+Engineer;Python+Developer" alt="Typing SVG" />
+</a>
 
 <p align="center">
   <strong>Crafting scalable backend architectures, high-performance RAG pipelines, and production-grade AI agents.</strong>
